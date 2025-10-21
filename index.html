@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentor - Learning Today, Leading Tomorrow</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    /* Navbar */
+    .navbar {
+      padding: 1rem 2rem;
+      background-color: #fff;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      background: url('https://bootstrapmade.com/demo/templates/Mentor/assets/img/hero-bg.jpg') center center/cover no-repeat;
+      height: 100vh;
+      color: #fff;
+      display: flex;
+      align-items: center;
+    }
+
+    .hero-overlay {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 600px;
+      padding: 2rem;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+
+    .hero p {
+      margin: 1rem 0 2rem;
+      font-size: 1.1rem;
+    }
+
+    .btn-get-started {
+      background-color: #5fcf80;
+      color: #fff;
+      padding: 10px 30px;
+      border-radius: 50px;
+      transition: 0.3s;
+      text-decoration: none;
+    }
+
+    .btn-get-started:hover {
+      background-color: #3ac162;
+      color: #fff;
+    }
+
+    /* Navbar brand */
+    .navbar-brand span {
+      color: #5fcf80;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><span>MENTOR</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Trainers</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          <li class="nav-item"><a class="btn btn-success ms-3" href="#">Get Started</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero d-flex align-items-center">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1>Learning Today,<br>Leading Tomorrow</h1>
+      <p>We are a team of talented designers making websites with Bootstrap</p>
+      <a href="#" class="btn-get-started">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <title>Mentor - About Section</title>
+
+  <!-- Bootstrap CSS -->
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    /* About Section */
+    .about {
+      padding: 80px 0;
+    }
+
+    .about .content h3 {
+      font-weight: 700;
+      font-size: 26px;
+      color: #37423b;
+      margin-bottom: 20px;
+    }
+
+    .about .content p {
+      color: #777;
+      font-size: 15px;
+    }
+
+    .about .content ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .about .content ul li {
+      padding: 10px 0 0 28px;
+      position: relative;
+    }
+
+    .about .content ul li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      top: 8px;
+      color: #5fcf80;
+      font-weight: bold;
+    }
+
+    .btn-read-more {
+      background: #5fcf80;
+      color: #fff;
+      padding: 8px 25px;
+      border-radius: 50px;
+      text-decoration: none;
+      transition: 0.3s;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    .btn-read-more:hover {
+      background: #3ac162;
+      color: #fff;
+    }
+
+    /* Counter Section */
+    .counts {
+      background: #f6f7f6;
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    .counts .count-box {
+      padding: 20px;
+    }
+
+    .counts .count-box span {
+      font-size: 36px;
+      color: #5fcf80;
+      font-weight: 600;
+      display: block;
+    }
+
+    .counts .count-box p {
+      margin: 0;
+      font-size: 15px;
+      color: #37423b;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- About Section -->
+  <section class="about">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 content">
+          <h3>Voluptatem dignissimos provident quasi corporis</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+
+          <ul>
+            <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+            <li>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+            <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</li>
+          </ul>
+
+          <a href="#" class="btn-read-more">Read More →</a>
+        </div>
+
+        <div class="col-lg-6">
+          <img src="https://bootstrapmade.com/demo/templates/Mentor/assets/img/about.jpg" alt="About" class="img-fluid rounded shadow">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Counts Section -->
+  <section class="counts">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-3 col-6">
+          <div class="count-box">
+            <span>1232</span>
+            <p>Students</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-6">
+          <div class="count-box">
+            <span>64</span>
+            <p>Courses</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-6">
+          <div class="count-box">
+            <span>42</span>
+            <p>Events</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-6">
+          <div class="count-box">
+            <span>24</span>
+            <p>Trainers</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Why Choose Our Products</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    /* ====== Features Section ====== */
+    .features {
+      padding: 80px 0;
+    }
+
+    .features .icon-box {
+      text-align: center;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+      padding: 30px 20px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .features .icon-box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    .features .icon-box i {
+      font-size: 32px;
+      color: #5fcf80;
+      margin-bottom: 10px;
+    }
+
+    .features .icon-box h4 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: #37423b;
+    }
+
+    .features .icon-box p {
+      font-size: 14px;
+      color: #777;
+    }
+
+    /* Left Green Box */
+    .features .why-box {
+      background: #5fcf80;
+      color: #fff;
+      border-radius: 8px;
+      padding: 30px;
+      height: 100%;
+    }
+
+    .features .why-box h3 {
+      font-weight: 700;
+      font-size: 22px;
+    }
+
+    .features .why-box p {
+      font-size: 15px;
+      margin: 15px 0 20px;
+    }
+
+    .features .btn-learn-more {
+      background: #fff;
+      color: #5fcf80;
+      padding: 8px 20px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .features .btn-learn-more:hover {
+      background: #e3e3e3;
+      color: #5fcf80;
+    }
+
+    /* Bottom Feature Grid */
+    .features .icon-list {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transition: all 0.3s ease;
+    }
+
+    .features .icon-list i {
+      color: #5fcf80;
+      font-size: 20px;
+    }
+
+    .features .icon-list span {
+      font-size: 14px;
+      color: #37423b;
+      font-weight: 500;
+    }
+
+    .features .icon-list:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- ======= Features Section ======= -->
+  <section class="features">
+    <div class="container">
+      <div class="row gy-4">
+
+        <!-- Green Left Box -->
+        <div class="col-lg-3 col-md-12">
+          <div class="why-box d-flex flex-column justify-content-center h-100">
+            <h3>Why Choose Our Products?</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="#" class="btn-learn-more">Learn More →</a>
+          </div>
+        </div>
+
+        <!-- Feature 1 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="icon-box">
+            <i class="bi bi-graph-up"></i>
+            <h4>Corporis voluptates officia elusmod</h4>
+            <p>Consequatur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+          </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="icon-box">
+            <i class="bi bi-gem"></i>
+            <h4>Ullamco laboris ladore pan</h4>
+            <p>Excepturi sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+          </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="icon-box">
+            <i class="bi bi-briefcase"></i>
+            <h4>Labore consequatur incidid dolore</h4>
+            <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Feature Icons -->
+      <div class="row gy-3 mt-5">
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="icon-list"><i class="bi bi-star"></i><span>Lorem Ipsum</span></div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="icon-list"><i class="bi bi-bullseye"></i><span>Dolor Sitema</span></div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="icon-list"><i class="bi bi-pen"></i><span>Sed perspiciatis</span></div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="icon-list"><i class="bi bi-activity"></i><span>Magni Dolores</span></div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="icon-list"><i class="bi bi-brightness-high"></i><span>Nemo Enim</span></div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="icon-list"><i class="bi bi-clock"></i><span>Elusmod Tempor</span></div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="icon-list"><i class="bi bi-map"></i><span>Midela Teren</span></div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="icon-list"><i class="bi bi-box"></i><span>Pira Neve</span></div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="icon-list"><i class="bi bi-gear"></i><span>Dirada Pack</span></div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="icon-list"><i class="bi bi-globe"></i><span>Moton Ideal</span></div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="icon-list"><i class="bi bi-collection"></i><span>Verdo Park</span></div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="icon-list"><i class="bi bi-brush"></i><span>Flavor Nivelanda</span></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <style>
+    .card img {
+      object-fit: cover;
+      height: 200px;
+    }
+    .instructor-card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    .badge {
+      font-size: 0.75rem;
+    }
+    .instructor-card {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container py-5">
+  <h3 class="mb-4">Courses <strong>Popular Courses</strong></h3>
+  
+  <div class="row g-4">
+    <!-- Course 1 -->
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="1stim.jpg" class="card-img-top" alt="Website Design">
+        <div class="card-body">
+          <span class="badge bg-success mb-2">Web Development</span>
+          <h5 class="card-title">Website Design</h5>
+          <p class="card-text text-muted">A short description goes here about the course content.</p>
+        </div>
+        <div class="card-footer d-flex justify-content-between align-items-center">
+          <small class="text-muted">👤 Antonio</small>
+          <div>
+            <small class="me-3">👍 50</small>
+            <small>👥 15</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Course 2 -->
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="2ndim.jpg" class="card-img-top" alt="SEO">
+        <div class="card-body">
+          <span class="badge bg-primary mb-2">Marketing</span>
+          <h5 class="card-title">Search Engine Optimization</h5>
+          <p class="card-text text-muted">Improve your SEO skills and learn how to increase site traffic.</p>
+        </div>
+        <div class="card-footer d-flex justify-content-between align-items-center">
+          <small class="text-muted">👤 Lana</small>
+          <div>
+            <small class="me-3">👍 45</small>
+            <small>👥 25</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Course 3 -->
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="3rdimg.jpg" class="card-img-top" alt="Copywriting">
+        <div class="card-body">
+          <span class="badge bg-success mb-2">Content</span>
+          <h5 class="card-title">Copywriting</h5>
+          <p class="card-text text-muted">Master the art of writing compelling content for your brand.</p>
+        </div>
+        <div class="card-footer d-flex justify-content-between align-items-center">
+          <small class="text-muted">👤 Brandon</small>
+          <div>
+            <small class="me-3">👍 28</small>
+            <small>👥 35</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Instructors Section -->
+  <div class="row mt-5 g-4">
+    <!-- Instructor 1 -->
+    <div class="col-md-4">
+      <div class="card instructor-card h-100 p-3">
+        <img src="abhay1.jpg" alt="Walter White" class="rounded-circle mx-auto mb-3" style="width:150px;height:150px;">
+        <h5>Walter White</h5>
+        <p class="text-muted">Web Developer</p>
+        <p class="text-muted small">Expert in full stack development and teaching others the latest in tech.</p>
+        <div>
+          <a href="#" class="text-dark me-2">🔗</a>
+          <a href="#" class="text-dark me-2">🐦</a>
+          <a href="#" class="text-dark">📘</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Instructor 2 -->
+    <div class="col-md-4">
+      <div class="card instructor-card h-100 p-3">
+        <img src="angel.jpg" alt="Sarah Jhinson" class="rounded-circle mx-auto mb-3" style="width:150px;height:150px;">
+        <h5>Sarah Jhinson</h5>
+        <p class="text-muted">Marketing Specialist</p>
+        <p class="text-muted small">Helping businesses grow by leveraging digital marketing techniques.</p>
+        <div>
+          <a href="#" class="text-dark me-2">🔗</a>
+          <a href="#" class="text-dark me-2">🐦</a>
+          <a href="#" class="text-dark">📘</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Instructor 3 -->
+    <div class="col-md-4">
+      <div class="card instructor-card h-100 p-3">
+        <img src="brad.jpg" alt="William Anderson" class="rounded-circle mx-auto mb-3" style="width:150px;height:150px;">
+        <h5>William Anderson</h5>
+        <p class="text-muted">Content Creator</p>
+        <p class="text-muted small">Creative content strategist with experience in SEO and social media.</p>
+        <div>
+          <a href="#" class="text-dark me-2">🔗</a>
+          <a href="#" class="text-dark me-2">🐦</a>
+          <a href="#" class="text-dark">📘</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<footer class="bg-light text-muted pt-5">
+  <div class="container">
+    <div class="row">
+      <!-- Company Info -->
+      <div class="col-md-3 mb-4">
+        <h5 class="text-dark fw-bold">Mentor</h5>
+        <p>A108 Adam Street<br>New York, NY 535022</p>
+        <p><strong>Phone:</strong> +1 5589 55488 55</p>
+        <p><strong>Email:</strong> info@example.com</p>
+        <div class="d-flex gap-2 mt-3">
+          <a href="#" class="btn btn-outline-secondary rounded-circle p-2">
+            <i class="bi bi-twitter-x"></i>
+          </a>
+          <a href="#" class="btn btn-outline-secondary rounded-circle p-2">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="#" class="btn btn-outline-secondary rounded-circle p-2">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="#" class="btn btn-outline-secondary rounded-circle p-2">
+            <i class="bi bi-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Useful Links -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold text-dark">Useful Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-muted text-decoration-none">Home</a></li>
+          <li><a href="#" class="text-muted text-decoration-none">About us</a></li>
+          <li><a href="#" class="text-muted text-decoration-none">Services</a></li>
+          <li><a href="#" class="text-muted text-decoration-none">Terms of service</a></li>
+          <li><a href="#" class="text-muted text-decoration-none">Privacy policy</a></li>
+        </ul>
+      </div>
+
+      <!-- Our Services -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold text-dark">Our Services</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-muted text-decoration-none">Web Design</a></li>
+          <li><a href="#" class="text-muted text-decoration-none">Web Development</a></li>
+          <li><a href="#" class="text-muted text-decoration-none">Product Management</a></li>
+          <li><a href="#" class="text-muted text-decoration-none">Marketing</a></li>
+          <li><a href="#" class="text-muted text-decoration-none">Graphic Design</a></li>
+        </ul>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold text-dark">Our Newsletter</h6>
+        <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+        <form class="d-flex">
+          <input type="email" class="form-control rounded-start" placeholder="Email" />
+          <button class="btn btn-success rounded-end px-4">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="bg-light border-top py-3 mt-4">
+    <div class="container text-center">
+      <small class="text-muted">
+        © Copyright <strong class="text-dark">Mentor</strong> All Rights Reserved<br>
+        Designed by <a href="https://bootstrapmade.com/" class="text-success text-decoration-none">BootstrapMade</a>
+      </small>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap Icons (needed for social icons) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
